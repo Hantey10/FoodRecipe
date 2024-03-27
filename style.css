@@ -1,0 +1,154 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+.name {
+    text-align: left;
+    font-size: 40px;
+    color: hsl(24, 5%, 18%) ;
+    font-family: "Young+Serif";
+    font-weight: 400px;
+    margin-right: 0;
+}
+
+.picture {
+    border-radius: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.explanation {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Outfit";
+    margin: 0;
+}
+
+.heading {
+    text-align: left;
+    font-size: 18px;
+    color:hsl(332, 51%, 32%);
+
+}
+
+.heading2 {
+    font-family: "Outfit";
+}
+
+.first {
+    text-align: left;
+    background-color: hsl(330, 100%, 98%);
+    justify-content: center;
+}
+
+.container {
+    width: 600px;
+    background-color:hsl(0, 0%, 100%) ;
+    margin: auto;
+    border: none;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.ing {
+    text-align: left;
+    font-size: 20px;
+    color:  hsl(14, 45%, 36%);
+    font-family: "Young+Serif";
+    font-weight: 400;
+}
+
+.ing2 {
+    font-family: "Outfit";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.obey {
+    text-align: left;
+    font-size: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+.instruct {
+    text-align: left;
+    font-size: 16px;
+    color:hsl(30, 10%, 34%);
+    font-weight: 700;
+   
+}
+
+.instruct1 {
+    font-family: "Outfit";
+    font-weight: 400;
+}
+
+.nutrient {
+    text-align: left;
+    font-size: 20px;
+    color:hsl(14, 45%, 36%);
+}
+
+.nutri {
+    text-align: left;
+    font-size: 16px;
+    font-family: "Outfit";
+}
+
+body {
+    background-color:hsl(30, 54%, 90%) ;
+}
+
+.nutrition-chart {
+
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.nutrition-child  {
+
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.nutrition-child-last {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nutrition-child > p:nth-child(2) {
+    color: hsl(14, 45%, 36%);
+    font-size: 16px;
+}
+
+table{
+
+    border-collapse: collapse;
+}
+
+tr {
+
+    margin-bottom: 10px;
+}
+
+tr > td:last-child
+{
+
+    color:hsl(14, 45%, 36%);
+    font-size: 16px;
+    font-family: "Young+Serif";
+}
+
+
+td{
+
+    padding: 10px;
+    border-bottom: 1px solid lightgrey
+    
+}
